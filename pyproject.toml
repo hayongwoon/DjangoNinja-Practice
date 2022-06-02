@@ -37,3 +37,6 @@ ignore_errors = true
 
 [tool.django-stubs]
 django_settings_module = "sparta.settings"
+
+[tool.isort]
+profile = "black"
